@@ -6,6 +6,9 @@
 Template class accepts different data types and is therefore a good fit for the
 circular buffer which has to accept arbitrary type.
 This is a minimal implementation featuring only the requested functions.
+The mutex is locked using try_lock() to prevent blocking behavior. 
+This way the user has the chance to handle unsucessfull reads in his own way. 
+TODO: Implement different return types for empty CircularBuffer or failing mutex locking.
 */ 
 template <typename T> 
 class CircularBuffer {
