@@ -5,4 +5,5 @@
  * As few dependencies as possible.
  * Template class to allow storage of different data types.
  * Mutex locking for threaded push and pop access.
+ * Non Blocking behavior of push and pop functions.
  * Basic testing using ctest and custom executables. 
