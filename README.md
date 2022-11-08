@@ -1,6 +1,5 @@
 ![cmake workflow](https://github.com/arminstr/cpp-cbuf/actions/workflows/cmake.yml/badge.svg)
-# ccp-cbuf
-Circular Buffer Implementation in C++
+# Circular Buffer Implementation in C++
 
 ## Main Design Decisions
  * As few dependencies as possible.
