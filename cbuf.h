@@ -12,8 +12,7 @@ class CircularBuffer {
         size_t count(void);
     private:
         std::unique_ptr<T[]> buffer;
-        size_t front;
-        size_t back;
+        size_t push_index;
         size_t max_size;
-        T empty;
+        size_t current_size;
 };
